@@ -1,0 +1,47 @@
+.inicio{
+    background-image: url(../imagen/inicio1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.formulario{background-image: url(../imagen/formulario.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.horario{background-image: url(../imagen/horario.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+td{
+    text-align: center;
+}
+.aplweb{
+    background-color: blue;
+}
+.proyecto{
+    background-color: blueviolet;
+
+}
+.sr{
+    background-color: aqua;
+}
+.sor{
+    background-color: crimson;
+}
+.ip{
+    background-color: deeppink;
+}
+.fp{
+    background-color: forestgreen;
+}
+.ingles{
+    background-color: dodgerblue;
+}
+.sr{
+    background-color: mediumorchid;
+}
+.si{
+    background-color: yellow;
+
+}
