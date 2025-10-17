@@ -1,0 +1,187 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0f7fa;
+    color: #004d66;
+    text-align: center;
+}
+
+
+header, #cabecera {
+    background-color: #004d66;
+    color: white;
+    padding: 20px;
+}
+
+header img, #cabecera img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #006680;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #00acc1;
+}
+
+section, .bloque {
+    background-color: white;
+    width: 70%;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+ol, ul {
+    text-align: left;
+    margin-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+a {
+    color: #006680;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    background-color: #f9f9f9;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #b2ebf2;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #00838f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00acc1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+
+tr td[colspan="6"] {
+    background-color: #ffe699;
+    font-weight: bold;
+}
+
+.ip { background-color: #ffe0b2;
+transition-duration: 2s; }
+.ip:hover{transform: rotate(30deg);}
+
+.ingles { background-color: #d1c4e9;
+transition-duration: 2s; }
+.ingles:hover{transform: rotate(30deg);}
+
+.aplweb { background-color: #b2ebf2;
+transition-duration: 2s; }
+.aplweb:hover{transform: rotate(30deg);}
+
+.sr { background-color: #c8e6c9;
+transition-duration: 2s; }
+.sr:hover{transform: rotate(30deg);}
+
+.fp { background-color: #ffccbc;
+transition-duration: 2s; }
+.fp:hover{transform: rotate(30deg);}
+
+.si { background-color: #ffebee;
+transition-duration: 2s; }
+.si:hover{transform: rotate(30deg);}
+
+.sor { background-color: #bbdefb;
+transition-duration: 2s; }
+.sor:hover{transform: rotate(30deg);}
+
+.proyecto { background-color: #f8bbd0;
+    transition-duration: 2s; }
+.proyecto:hover{transform: rotate(30deg);}
+
+
+footer, #pie {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
