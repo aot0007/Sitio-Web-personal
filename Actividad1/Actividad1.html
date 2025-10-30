@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Actividad 1 – Añadir comentarios a una lista</h2>
+
+    <label>Escribe un comentario:</label><br>
+    <input type="text" id="comentario">
+    <input type="button" value="Añadir" onclick="agregarComentario()">
+
+    <h3>Comentarios:</h3>
+    <div id="listaComentarios" style="border:1px solid gray; padding:10px; width:300px;">
+
+</div>
+    <script>
+        function agregarComentario() {
+        var texto = document.getElementById("comentario").value;
+        var nuevoParrafo = document.createElement("p");
+        var textoNodo = document.createTextNode(texto);
+        nuevoParrafo.appendChild(textoNodo);
+        nuevoParrafo.style.color = "blue";
+        var contenedor = document.getElementById("listaComentarios");
+        contenedor.style.backgroundColor = "#000000";
+        contenedor.appendChild(nuevoParrafo);
+        document.getElementById("comentario").value = "";
+
+        }
+    </script>
+</body>
+</html>
